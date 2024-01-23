@@ -10,7 +10,7 @@ function Botonera(props) {
   for (let i = 0; i < props.campo.length; i++) {
     let fila = [];
     for (let j = 0; j < props.campo[i].length; j++) {
-      fila.push(<Button className='btnClass' color="secondary"></Button>)
+      fila.push(<Button className='btnClass' color="primary"></Button>)
     }
     campoAux.push(fila)
     campoAux.push(<br></br>)
